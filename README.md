@@ -26,4 +26,24 @@ All critical user flows, edge cases, and error scenarios are documented.
 ### 2️⃣ Automation Scripts
 Selenium test scripts were written and executed across multiple browsers/devices using BrowserStack Automate.  
 
-📂 Project Structure:
+📂 Project Structure :
+
+---
+
+### 3️⃣ Test Reporting & Analytics
+Integrated with **BrowserStack Test Reporting and Analytics** to analyze results.  
+
+🔗 **Report Link:**  
+[View Test Report](<paste-your-BrowserStack-report-link-here>)  
+
+---
+
+## 🚀 How to Run Locally
+Clone this repository and install dependencies:
+
+```bash
+git clone <your-repo-url>
+cd <repo-folder>
+pip install -r requirements.txt
+pytest tests/ --browser=chrome
+
